@@ -66,7 +66,8 @@ There are OPTIONAL files if the respective information is available:
 ### Run
 To run HGP-SL, just execute the following command for graph classification task:
 ```
-python main.py
+python main.py   
+注意：pytorch1.2不行，pytorch版本要改为1.4，改为1.4后，需要把layers.py的第31行最后一个参数删掉
 ```
 
 ### Parameter Settings
